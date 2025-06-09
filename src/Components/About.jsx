@@ -3,14 +3,14 @@ import AboutImage from "../assets/aboutme-image.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="bg-blue-900 text-white py-1 scroll-mt-24" >
+    <div id="about" className="bg-blue-900 text-white py-1 scroll-mt-44" >
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12" >About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <img
             src={AboutImage}
             alt="Avitar Me"
-            className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
+            className="w-72 h-110 rounded object-cover mb-8 md:mb-0"
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
